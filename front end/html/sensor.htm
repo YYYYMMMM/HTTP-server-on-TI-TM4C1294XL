@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <title>SensorHub Display</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="ico.png" />
+    <script src="js/javascript.js" language="JavaScript1.2" charset="utf-8"></script>
+  <script src="js/jquery-1.8.3.min.js"></script>
+</head>
+
+<body>
+  <div class="header">
+    <ul>
+    <li id="index" onclick="loadIO();">Home</li>
+    <li id="about" onclick="loadAbout()">About</li>
+    </ul>
+  </div>
+
+  <div class="main">
+    <h2>SensorHub Demo</h2>      
+
+    <form method="POST" name="Other_IO",action=" ">
+      <input style="width: 10em; height: 2em;" id="temperature_click" value="Get Temperature" onclick="get_temperature();" type="button"> &nbsp;
+      <input maxlength="3" size="4" type="text" id="temperature" name="temperature_display" value="__SL_G_U07"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      &#8451; <input type="radio" name=" temperatureU" onclick ="temperatureC();" value="0"__SL_G_U08 /> &nbsp;&nbsp;
+      &#8457; <input type="radio" name=" temperatureU" onclick ="humid();" value="1"__SL_G_U09 /> &nbsp;
+    </form>
+                   
+  </div>
+
+  <div class="footer">
+    当前时间：<span id="time"></span>
+  </div>
+
+</body>
+</html>

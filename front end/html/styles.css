@@ -1,0 +1,120 @@
+/* Styling for the entire document. */
+body
+{
+    background-color: white;
+    color: black;
+    font-family: Ariel,Helvetica,sans-serif;
+    font-size: 24px;
+    position: relative;
+}
+
+.header{
+    margin-top: -30px;
+    background-color: #b0c4de;
+    height: 60px;
+    width: 100%;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.header ul{
+    width: 95%;
+    list-style-type: none;
+    padding: 20px;
+}
+
+.header li{
+    display: inline-block;
+    color: dimgray;
+}
+
+.header li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+#about{
+    float: right;
+}
+
+.main{
+    margin: 5% 8%;
+}
+
+#LED{
+    margin: 3% 0;
+    width: 45%;
+    border: double 4.5px #b0c4de;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 50px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: center;
+    float: left;
+}
+
+#sensor,#button{
+    margin-bottom: 20px;
+    width: 45%;
+    border: double 4.5px #b0c4de;
+    border-radius: 10px;
+    padding: 5px;
+    padding-bottom: 50px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: center;
+    float: right;
+}
+
+/* Styling for the footing div. */
+.footer{
+    position: fixed;
+    bottom: 20px;
+    font-size: .75em;
+    font-style: italic;
+    left: 41%;
+    text-align: center;
+}
+
+.footer hr
+{
+    border-bottom: 1px solid #ff0000;
+    border-top: 1px solid #ff0000;
+}
+
+input{
+    cursor: pointer;
+    font-size: 0.7em;
+}
+
+input[type="radio"]{
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+}
+
+input[type="button"]{
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 4px;
+    padding: 4px 8px;
+    overflow: hidden;
+    color: #1E88C7;
+    font-weight: bold;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+}
+
+input[type="text"]{
+    border: 1px solid dimgray; /* 输入框表框颜色*/
+    background-color: #F2F9FD; /* 输入框背景颜色*/
+    height: 24px; /*输入框高度*/
+    width: 100px;
+    padding-top: 4px; /*输入框里的文字和输入框上边之间的距离（因为输入框比较高，输入的字不是居中的，所以设定此样式）*/
+    font-family: Arial, Helvetica, sans-serif; /*输入框文字类型*/
+    font-size: 16px; /*输入框内文字大小*/
+    padding-left: 5px; /*输入框里的文字和输入框左边之间的距离*/
+    cursor: default;
+}

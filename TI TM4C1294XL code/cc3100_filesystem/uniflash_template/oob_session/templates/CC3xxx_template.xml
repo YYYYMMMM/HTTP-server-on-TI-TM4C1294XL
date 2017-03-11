@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CC3xxx>
+   <XML_VER>2</XML_VER>
+   <Version>
+      <Platform>CC3xxx Simple Link device</Platform>
+      <BootLoader>
+         <SoftwareMajor>2</SoftwareMajor>
+         <SoftwareMinor>0</SoftwareMinor>
+         <SoftwareVersion>3</SoftwareVersion>
+         <SoftwareSubVersion>4</SoftwareSubVersion>
+      </BootLoader>
+      <NWP>
+         <SoftwareMajor>2</SoftwareMajor>
+         <SoftwareMinor>0</SoftwareMinor>
+         <SoftwareVersion>6</SoftwareVersion>
+         <SoftwareSubVersion>29</SoftwareSubVersion>
+      </NWP>
+      <MAC>
+         <SoftwareMajor>31</SoftwareMajor>
+         <SoftwareMinor>0</SoftwareMinor>
+         <SoftwareVersion>3</SoftwareVersion>
+         <SoftwareSubVersion>10</SoftwareSubVersion>
+      </MAC>
+      <PHY>
+         <SoftwareMajor>1</SoftwareMajor>
+         <SoftwareMinor>5</SoftwareMinor>
+         <SoftwareVersion>3</SoftwareVersion>
+         <SoftwareSubVersion>1</SoftwareSubVersion>
+      </PHY>
+      <Patches>
+         <SoftwareMajor>0</SoftwareMajor>
+         <SoftwareMinor>0</SoftwareMinor>
+         <SoftwareVersion>0</SoftwareVersion>
+         <SoftwareSubVersion>0</SoftwareSubVersion>
+      </Patches>
+   </Version>
+   <Filename name="/sys/mcuimg.bin" category="system">
+      <Version>1</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>&quot;location on local machine&quot;</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="true"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>false</verify>
+      <Update>false</Update>
+      <Erase>false</Erase>
+      <Certificate>&quot;&quot;</Certificate>
+      <Signature>&quot;&quot;</Signature>
+   </Filename>
+   <Filename name="/cert/ca.pem" category="system">
+      <Version>1</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>&quot;location on local machine&quot;</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>false</verify>
+      <Update>false</Update>
+      <Erase>false</Erase>
+      <Certificate>&quot;&quot;</Certificate>
+      <Signature>&quot;&quot;</Signature>
+   </Filename>
+   <Filename name="/cert/client.pem" category="system">
+      <Version>1</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>&quot;location on local machine&quot;</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>false</verify>
+      <Update>false</Update>
+      <Erase>false</Erase>
+      <Certificate>&quot;&quot;</Certificate>
+      <Signature>&quot;&quot;</Signature>
+   </Filename>
+   <Filename name="/cert/private.key" category="system">
+      <Version>1</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>&quot;location on local machine&quot;</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>false</verify>
+      <Update>false</Update>
+      <Erase>false</Erase>
+      <Certificate>&quot;&quot;</Certificate>
+      <Signature>&quot;&quot;</Signature>
+   </Filename>
+   <Filename name="/sys/macadd.bin" category="config">
+      <Version>1</Version>
+      <Type>conf</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>3584</MaxSize>
+      <url>${sessionDir}/fileSystem/macadd.bin</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="true"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>false</Update>
+      <Erase>false</Erase>
+      <Certificate>&quot;&quot;</Certificate>
+      <Signature>&quot;&quot;</Signature>
+   </Filename>
+   <Filename name="/sys/mode.cfg" category="config">
+      <Version>1</Version>
+      <Type>conf</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>3584</MaxSize>
+      <url>${sessionDir}/fileSystem/mode.cfg</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="true"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>false</Update>
+      <Erase>false</Erase>
+      <Certificate>&quot;&quot;</Certificate>
+      <Signature>&quot;&quot;</Signature>
+   </Filename>
+   <Filename name="/sys/ipcfg.ini" category="config">
+      <Version>1</Version>
+      <Type>conf</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>3584</MaxSize>
+      <url>${sessionDir}/fileSystem/ipcfg.ini</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="true"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>false</Update>
+      <Erase>false</Erase>
+      <Certificate>&quot;&quot;</Certificate>
+      <Signature>&quot;&quot;</Signature>
+   </Filename>
+   <Filename name="/sys/ap.cfg" category="config">
+      <Version>1</Version>
+      <Type>conf</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>3584</MaxSize>
+      <url>${sessionDir}/fileSystem/ap.cfg</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="true"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>false</Update>
+      <Erase>false</Erase>
+      <Certificate>&quot;&quot;</Certificate>
+      <Signature>&quot;&quot;</Signature>
+   </Filename>
+   <Filename name="/sys/devname.cfg" category="config">
+      <Version>1</Version>
+      <Type>conf</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>3584</MaxSize>
+      <url>${sessionDir}/fileSystem/devname.cfg</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="true"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>false</Update>
+      <Erase>false</Erase>
+      <Certificate>&quot;&quot;</Certificate>
+      <Signature>&quot;&quot;</Signature>
+   </Filename>
+   <Filename name="/sys/mdns.cfg" category="config">
+      <Version>1</Version>
+      <Type>conf</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>3584</MaxSize>
+      <url>${sessionDir}/fileSystem/mdns.cfg</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="true"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>false</Update>
+      <Erase>false</Erase>
+      <Certificate>&quot;&quot;</Certificate>
+      <Signature>&quot;&quot;</Signature>
+   </Filename>
+   <Filename name="/sys/dhcpsrv.cfg" category="config">
+      <Version>1</Version>
+      <Type>conf</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>3584</MaxSize>
+      <url>${sessionDir}/fileSystem/dhcpsrv.cfg</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="true"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>false</Update>
+      <Erase>false</Erase>
+      <Certificate>&quot;&quot;</Certificate>
+      <Signature>&quot;&quot;</Signature>
+   </Filename>
+   <Filename name="/sys/httpsrv.cfg" category="config">
+      <Version>1</Version>
+      <Type>conf</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>3584</MaxSize>
+      <url>${sessionDir}/fileSystem/httpsrv.cfg</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="true"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>false</Update>
+      <Erase>false</Erase>
+      <Certificate>&quot;&quot;</Certificate>
+      <Signature>&quot;&quot;</Signature>
+   </Filename>
+   <Filename name="/sys/pref.net" category="config">
+      <Version>1</Version>
+      <Type>conf</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>7680</MaxSize>
+      <url>${sessionDir}/fileSystem/pref.net</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="true"/>
+         <ModeEntry name="Secured" checked="true"/>
+         <ModeEntry name="NoSignatureTest" checked="true"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="true"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>false</verify>
+      <Update>false</Update>
+      <Erase>false</Erase>
+      <Certificate>&quot;&quot;</Certificate>
+      <Signature>&quot;&quot;</Signature>
+   </Filename>
+   <Filename name="/sys/smartconfigkeys.cfg" category="config">
+      <Version>1</Version>
+      <Type>conf</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>3584</MaxSize>
+      <url>${sessionDir}/fileSystem/smartconfigkeys.cfg</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="true"/>
+         <ModeEntry name="Secured" checked="true"/>
+         <ModeEntry name="NoSignatureTest" checked="true"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="true"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>false</verify>
+      <Update>false</Update>
+      <Erase>false</Erase>
+      <Certificate>&quot;&quot;</Certificate>
+      <Signature>&quot;&quot;</Signature>
+   </Filename>
+   <Filename name="/sys/stacfg.ini" category="config">
+      <Version>1</Version>
+      <Type>conf</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>3584</MaxSize>
+      <url>${sessionDir}/fileSystem/stacfg.ini</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="true"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>false</Update>
+      <Erase>false</Erase>
+      <Certificate>&quot;&quot;</Certificate>
+      <Signature>&quot;&quot;</Signature>
+   </Filename>
+   <Filename name="/sys/p2p.cfg" category="config">
+      <Version>1</Version>
+      <Type>conf</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>3584</MaxSize>
+      <url>${sessionDir}/fileSystem/p2p.cfg</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="true"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>false</Update>
+      <Erase>false</Erase>
+      <Certificate>&quot;&quot;</Certificate>
+      <Signature>&quot;&quot;</Signature>
+   </Filename>
+   <Filename name="/sys/pmcfg.ini" category="config">
+      <Version>1</Version>
+      <Type>conf</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>3584</MaxSize>
+      <url>${sessionDir}/fileSystem/pmcfg.ini</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="true"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>false</Update>
+      <Erase>false</Erase>
+      <Certificate>&quot;&quot;</Certificate>
+      <Signature>&quot;&quot;</Signature>
+   </Filename>
+   <Filename name="www/safe/about.html" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\about.html</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/overview.html" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\overview.html</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/portal.html" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\portal.html</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/setup.html" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\setup.html</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/index.html" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\index.html</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/param_about.html" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\param_about.html</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/param_config.html" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\param_config.html</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/param_online.html" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\param_online.html</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/js/com.TI.tokenPoller.js" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\js\com.TI.tokenPoller.js</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/js/jquery-1.8.3.min.js" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\js\jquery-1.8.3.min.js</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/js/jquery.rwdImageMaps.min.js" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\js\jquery.rwdImageMaps.min.js</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/js/page-actions.js" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\js\page-actions.js</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/images/ti-logo.png" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\images\ti-logo.png</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/images/icon_l_html_a.png" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\images\icon_l_html_a.png</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/images/tab-line.gif" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\images\tab-line.gif</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/images/ticom3-tab-left.gif" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\images\ticom3-tab-left.gif</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/images/ticom3-tab-right.gif" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\images\ticom3-tab-right.gif</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/images/hw-sbd.gif" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\images\hw-sbd.gif</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/images/sw-sbd.gif" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\images\sw-sbd.gif</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/css/style.css" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\css\style.css</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/fs/404.htm" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\fs\404.htm</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/fs/about.htm" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\fs\about.htm</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/fs/block.htm" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\fs\block.htm</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/fs/index.htm" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\fs\index.htm</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/fs/io_http.htm" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\fs\io_http.htm</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/fs/io_http_params.htm" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\fs\io_http_params.htm</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/fs/overview.htm" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\fs\overview.htm</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/fs/perror.htm" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\fs\perror.htm</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/fs/javascript.js" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\fs\javascript.js</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/fs/javascript_load.js" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\fs\javascript_load.js</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/fs/favicon.ico" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\fs\favicon.ico</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/fs/block.jpg" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\fs\block.jpg</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/fs/ek-tm4c1294xl.jpg" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\fs\ek-tm4c1294xl.jpg</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/fs/ti.jpg" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\fs\ti.jpg</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/fs/tm4c.jpg" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\fs\tm4c.jpg</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/safe/fs/styles.css" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url>${sessionDir}\..\..\html\fs\styles.css</url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>true</verify>
+      <Update>true</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+   <Filename name="www/index.html" category="user">
+      <Version>0</Version>
+      <Type>blob</Type>
+      <Storage>SFLASH</Storage>
+      <MaxSize>0</MaxSize>
+      <url></url>
+      <mode>
+         <ModeEntry name="Rollback" checked="false"/>
+         <ModeEntry name="Secured" checked="false"/>
+         <ModeEntry name="NoSignatureTest" checked="false"/>
+         <ModeEntry name="StaticToken" checked="false"/>
+         <ModeEntry name="VendorToken" checked="false"/>
+         <ModeEntry name="PublicWrite" checked="false"/>
+         <ModeEntry name="PublicRead" checked="false"/>
+      </mode>
+      <verify>false</verify>
+      <Update>false</Update>
+      <Erase>true</Erase>
+      <Certificate></Certificate>
+      <Signature></Signature>
+   </Filename>
+</CC3xxx>

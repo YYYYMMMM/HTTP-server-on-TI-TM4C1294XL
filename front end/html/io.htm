@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <title>I/O Control Demo </title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="ico.png" />
+    <script src="js/javascript.js" language="JavaScript1.2" charset="utf-8"></script>
+	<script src="js/jquery-1.8.3.min.js"></script>
+</head>
+
+<body>
+	<!--<div class="header">
+	  <ul>
+		<li id="index" onclick="loadIO();">Home</li>
+		<li id="about" onclick="loadAbout()">About</li>
+	  </ul>
+	</div>-->
+
+	<div class="main">
+		<div id="LED">
+			<h2>Control LED</h2> 
+		    <form method="POST" name="LED_State",action=" ">
+		        LED  ON/OFF: &nbsp; &nbsp;
+		      OFF <input type="radio" name="LED_State" onclick ="led_off();" value="0"__SL_G_U01 /> &nbsp;
+		      ON <input type="radio" name="LED_State" onclick ="led_on();" value="1"__SL_G_U00 /> &nbsp;
+		    </form>
+		    <br>
+		    <form method="POST" name="LED_Toggle",action=" ">
+		      LED  Toggle: &nbsp; &nbsp;
+		      OFF <input type="radio" name="LED_Toggle" onclick ="led_toggle_off();" value="0"__SL_G_U03 /> 
+		      ON <input type="radio" name="LED_Toggle" onclick ="led_toggle_on();" value="1"__SL_G_U02 /> <br><br>
+		      LED Breathing:&nbsp; &nbsp;
+		      OFF <input type="radio" name="LED_Breath" onclick ="led_breath_off();" value="1"__SL_G_U06 /> 
+		      ON <input type="radio" name="LED_Breath" onclick ="led_breath_on();" value="0"__SL_G_U10 /> <br><br>
+		      Set Speed:&nbsp; &nbsp;<input maxlength="3" size="4" id="speed_percent" type="text" name="LED_Toggle_Speed" value="__SL_G_U04">% 
+		      <input id="speed_set" value="Set Speed" onclick="speedSet();" type="button"><br><br>
+		      
+		      
+		    </form>       
+		</div>
+
+		<div id="sensor">
+			<h2>SensorHub Demo</h2>     
+		    <form method="POST" name="Other_IO",action=" ">
+		      <input style="width: 8em; height: 2em;" id="temperature_click" name=" temperatureU" value="humidity" onclick="temperatureC();" type="button">&nbsp;<input maxlength="3" size="4" type="text" id="temperature" name="temperature_display" value="__SL_G_U08"> <br><br>
+
+		      <input style="width: 8em; height: 2em;" id="humidity_click" name=" temperatureU" value="temperature" onclick="humid();" type="button">&nbsp;<input maxlength="3" size="4" type="text" id="humidity" name="temperature_display" value="__SL_G_U09"><br>
+		    </form>
+		</div>
+
+		<div id="button">
+			<h2>Get Button Demo</h2>
+			<input style="width: 10em; height: 2em;" id="pwm_click" value="Get button_count" onclick="get_button1();" type="button">&nbsp;<input maxlength="3" size="4" type="text" id="button1_count" name="temperature_display" value="__SL_G_U05"><br>
+			<input style="width: 15em; height: 2em;" id="pwm_click" value="Clear button_count" onclick="clear_button1();" type="button">
+		</div>
+    </div>
+	  <!-- <h2>Functional Demo</h2>
+		<form method="POST" name="Other_IO",action=" ">
+			<input style="width: 30em; height: 4em;" id="openLED" value="View LED Control Demo" onclick="loadLED();" type="button"> <br><br>
+			<input style="width: 30em; height: 4em;" id="openSensor" value="View SensorHub Demo" onclick="loadSensor();" type="button"> &nbsp;
+	    </form>-->
+
+	<div class="footer">
+		当前时间：<span id="time"></span>
+	</div>
+</body>
+</html>
